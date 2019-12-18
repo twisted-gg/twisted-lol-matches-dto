@@ -1,3 +1,3 @@
 # TwistedGG - Lol Matches
 
-Database and swagger DTO
+Database and swagger DTO files
