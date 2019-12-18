@@ -6,7 +6,6 @@ import com.twisted.dto.match.participant.items.MatchParticipantItems
 import com.twisted.dto.match.participant.perks.MatchParticipantPerks
 import com.twisted.dto.match.participant.stats.MatchParticipantKDA
 import com.twisted.dto.match.participant.stats.MatchParticipantStats
-import com.twisted.dto.match.participant.timeline.MatchParticipantTimeline
 
 data class MatchParticipant(
     val summoner: MatchParticipantSummoner,
@@ -16,7 +15,6 @@ data class MatchParticipant(
     val teamId: Int,
     val kda: MatchParticipantKDA,
     val stats: MatchParticipantStats,
-    val timeline: MatchParticipantTimeline,
     val items: MatchParticipantItems,
     val perks: MatchParticipantPerks,
     val frames: List<MatchParticipantFrames>,
