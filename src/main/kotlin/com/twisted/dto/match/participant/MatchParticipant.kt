@@ -13,6 +13,8 @@ data class MatchParticipant(
     val spell1Id: Int,
     val spell2Id: Int,
     val teamId: Int,
+    val lane: String,
+    val role: String,
     val kda: MatchParticipantKDA,
     val stats: MatchParticipantStats,
     val items: MatchParticipantItems,
