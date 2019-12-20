@@ -6,5 +6,5 @@ interface IMatchLoadingDocument {
     val summoner: ObjectId
     val region: String
     val matches: List<MatchLoadingMatches>
-    var loading: Boolean
+    var healthy: Boolean
 }
