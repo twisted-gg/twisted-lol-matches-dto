@@ -1,8 +1,6 @@
 package com.twisted.dto.match.participant.stats
 
 data class MatchParticipantStats(
-    val altarsCaptured: Int,
-    val altarsNeutralized: Int,
     val champLevel: Int,
     val combatPlayerScore: Int,
     val damageDealtToObjectives: Long,
@@ -29,10 +27,6 @@ data class MatchParticipantStats(
     val neutralMinionsKilled: Int,
     val neutralMinionsKilledEnemyJungle: Int,
     val neutralMinionsKilledTeamJungle: Int,
-    val nodeCapture: Int,
-    val nodeCaptureAssist: Int,
-    val nodeNeutralize: Int,
-    val nodeNeutralizeAssist: Int,
     val objectivePlayerScore: Int,
     val participantId: Int,
     val pentaKills: Int,
@@ -61,20 +55,5 @@ data class MatchParticipantStats(
     val visionScore: Long,
     val visionWardsBoughtInGame: Int,
     val wardsKilled: Int,
-    val wardsPlaced: Int,
-    val playerScore0: Int,
-    val playerScore1: Int,
-    val playerScore2: Int,
-    val playerScore3: Int,
-    val playerScore4: Int,
-    val playerScore5: Int,
-    val playerScore6: Int,
-    val playerScore7: Int,
-    val playerScore8: Int,
-    val playerScore9: Int,
-    val perkPrimaryStyle: Int,
-    val perkSubStyle: Int,
-    val statPerk0: Int,
-    val statPerk1: Int,
-    val statPerk2: Int
+    val wardsPlaced: Int
 )
