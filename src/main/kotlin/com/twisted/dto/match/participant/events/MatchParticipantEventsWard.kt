@@ -1,7 +1,7 @@
 package com.twisted.dto.match.participant.events
 
 data class MatchParticipantEventsWard(
-    val type: String,
+    val type: Int,
     val timestamp: Long,
-    val wardType: String
+    val wardType: Int
 )
