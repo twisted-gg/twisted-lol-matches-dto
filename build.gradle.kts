@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     compile(kotlin("stdlib"))
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.+")
     implementation("org.mongodb:bson:2.5.1")
 }
 

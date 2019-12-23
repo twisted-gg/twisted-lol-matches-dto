@@ -5,5 +5,6 @@ val MatchParticipantsEventsWardTypes = mapOf<Int, String>(
     1 to "YELLOW_TRINKET",
     2 to "UNDEFINED",
     3 to "BLUE_TRINKET",
-    4 to "SIGHT_WARD"
+    4 to "SIGHT_WARD",
+    5 to "TEEMO_MUSHROOM"
 )

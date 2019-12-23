@@ -6,5 +6,6 @@ val MatchParticipantsLane = mapOf<Int, String>(
     2 to "TOP",
     3 to "JUNGLE",
     4 to "BOT",
-    5 to "BOTTOM"
+    5 to "BOTTOM",
+    6 to "NONE"
 )
