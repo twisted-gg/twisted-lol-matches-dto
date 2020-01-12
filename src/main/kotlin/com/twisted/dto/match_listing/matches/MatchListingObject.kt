@@ -1,5 +1,6 @@
 package com.twisted.dto.match_listing.matches
 
+import com.twisted.dto.match_listing.matches.summoner.MatchListingSummonerObject
 import com.twisted.dto.match_listing.matches.teams.MatchListingTeamObject
 
 data class MatchListingObject(
@@ -15,4 +16,4 @@ data class MatchListingObject(
     val creation: Long,
     val summoner: MatchListingSummonerObject,
     val teams: List<MatchListingTeamObject>
-)a
+)
