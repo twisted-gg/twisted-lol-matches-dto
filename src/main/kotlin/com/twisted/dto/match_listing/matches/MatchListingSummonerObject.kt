@@ -6,7 +6,6 @@ import com.twisted.dto.match.participant.stats.MatchParticipantKDA
 import com.twisted.dto.match.participant.stats.MatchParticipantStats
 
 data class MatchListingSummonerObject(
-    val duration: Long,
     val champion: Int,
     val kda: MatchParticipantKDA,
     val items: MatchParticipantItems,
