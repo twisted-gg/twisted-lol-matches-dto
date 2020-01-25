@@ -7,9 +7,10 @@ import com.twisted.dto.match.participant.perks.MatchParticipantPerks
 import com.twisted.dto.match.participant.spells.MatchParticipantSpells
 import com.twisted.dto.match.participant.stats.MatchParticipantKDA
 import com.twisted.dto.match.participant.stats.MatchParticipantStats
+import org.bson.types.ObjectId
 
 data class MatchParticipant(
-    val summoner: MatchParticipantSummoner,
+    val summoner: ObjectId,
     val championId: Int,
     val teamId: Int,
     val lane: Int,
