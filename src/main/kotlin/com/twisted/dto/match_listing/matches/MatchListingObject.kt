@@ -10,7 +10,7 @@ data class MatchListingObject(
     val season: String,
     val remake: Boolean,
     val type: String,
-    val map_id: Int,
+    val map: String,
     val victory: Boolean,
     val duration: Long,
     val creation: Long,
