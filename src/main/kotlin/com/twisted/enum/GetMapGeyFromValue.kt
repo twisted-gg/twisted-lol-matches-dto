@@ -2,7 +2,7 @@ package com.twisted.enum
 
 import com.twisted.dto.errors.InvalidEnum
 
-fun GetMapGeyFromValue(map: Map<Int, String>, value: String): Int {
+fun getMapGeyFromValue(map: Map<Int, String>, value: String): Int {
     val keys = map.filterValues { it == value }.keys
     if (keys.count() == 0) {
         throw InvalidEnum(value)
@@ -10,8 +10,8 @@ fun GetMapGeyFromValue(map: Map<Int, String>, value: String): Int {
     return keys.first()
 }
 
-fun GetMapGeyFromValue(map: Map<Int, String>, value: String, default: Int) = try {
-    GetMapGeyFromValue(map, value)
+fun getMapGeyFromValue(map: Map<Int, String>, value: String, default: Int) = try {
+    getMapGeyFromValue(map, value)
 } catch (e: Exception) {
     default
 }
