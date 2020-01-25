@@ -5,11 +5,11 @@ import com.twisted.dto.match_listing.matches.teams.MatchListingTeamObject
 
 data class MatchListingObject(
     val game_id: String,
-    val queue: Int,
-    val mode: Int,
-    val season: Int,
+    val queue: String,
+    val mode: String,
+    val season: String,
     val remake: Boolean,
-    val type: Int,
+    val type: String,
     val map_id: Int,
     val victory: Boolean,
     val duration: Long,
