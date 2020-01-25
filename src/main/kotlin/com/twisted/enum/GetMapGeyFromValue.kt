@@ -9,3 +9,9 @@ fun GetMapGeyFromValue(map: Map<Int, String>, value: String): Int {
     }
     return keys.first()
 }
+
+fun GetMapGeyFromValue(map: Map<Int, String>, value: String, default: Int) = try {
+    GetMapGeyFromValue(map, value)
+} catch (e: Exception) {
+    default
+}
