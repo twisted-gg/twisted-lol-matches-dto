@@ -17,6 +17,8 @@ data class MatchParticipant(
     val stats: MatchParticipantStats,
     val items: List<Int>,
     val perks: List<Int>,
+    val perkPrimaryStyle: Int,
+    val perkSubStyle: Int,
     val frames: List<MatchParticipantFrames>,
     val events: MatchParticipantEvents
 )

@@ -6,7 +6,8 @@ data class MatchDetailsTeamsParticipant(
     val name: String,
     val champion: Int,
     val spells: List<Int>,
-    val perks: List<Int>,
+    val perkPrincipal: Int,
+    val perkSubStyle: Int,
     val items: List<Int>,
     val kda: MatchParticipantKDA,
     val stats: MatchDetailsTeamsParticipantStats
