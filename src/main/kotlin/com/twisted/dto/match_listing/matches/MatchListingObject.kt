@@ -11,7 +11,7 @@ data class MatchListingObject(
     val remake: Boolean,
     val type: String,
     val map: String,
-    val victory: Boolean,
+    val win: Boolean,
     val duration: Long,
     val creation: Long,
     val summoner: MatchListingSummonerObject,
