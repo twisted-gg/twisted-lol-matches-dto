@@ -1,8 +1,8 @@
 package com.twisted.enum.common
 
 val MapsDto = mapOf<Int, String>(
-    1 to "SUMMONER_S_RIFT",
-    2 to "SUMMONER_S_RIFT",
+    1 to "SUMMONERS_RIFT",
+    2 to "SUMMONERS_RIFT",
     3 to "THE_PROVING_GROUNDS",
     4 to "TWISTED_TREELINE",
     8 to "THE_CRYSTAL_SCAR",
