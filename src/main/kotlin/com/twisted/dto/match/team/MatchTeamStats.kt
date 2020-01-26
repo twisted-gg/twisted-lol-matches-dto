@@ -1,6 +1,7 @@
 package com.twisted.dto.match.team
 
 data class MatchTeamStats(
+    val championKills: Int,
     val baronKills: Int,
     val dominionVictoryScore: Int,
     val dragonKills: Int,
