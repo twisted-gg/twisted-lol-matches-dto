@@ -1,4 +1,4 @@
-package com.twisted.dto.match_analysis.teams
+package com.twisted.dto.team_analysis.match_analysis.teams
 
 data class MatchAnalysisTeamsParticipants(
     val champion: Int,
