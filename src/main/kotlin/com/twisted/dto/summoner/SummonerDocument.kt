@@ -6,11 +6,9 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 data class SummonerDocument(
     val _id: String,
     val name: String,
-    val profileIconId: Int,
-    val summonerLevel: Int,
     val puuid: String,
     val accountId: String,
-    val loading: Boolean,
     val bot: Boolean,
-    val region: String
+    val region: String,
+    val leagues: List<SummonerLeaguesDocument>
 )
